@@ -1,0 +1,615 @@
+/* HEADER*/
+.header {
+    padding-top: 15px;
+}
+.brand-name {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 30px;
+}
+.topnav {
+    overflow: hidden;
+    text-align: center;
+    color: #4B4B4B;
+    
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    
+
+    margin-left: auto;
+    margin-right: auto;
+}
+.topnav a {
+    padding: 15px;
+    text-decoration: none;
+    color: #4B4B4B;
+}
+.auth-user button {
+    border: none;
+    height: 35px;
+    width: 80px;
+
+}
+.auth-user {
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 10px;
+}
+.auth-user a {
+    padding: 15px;
+    text-decoration: none;
+    color: #4B4B4B;
+}
+
+.topnav-pickup-page {
+    overflow: hidden;
+    text-align: center;
+    color: #082955;
+    
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+
+    margin-left: auto;
+    margin-right: auto;
+}
+.topnav-pickup-page a {
+    padding: 15px;
+    text-decoration: none;
+    color: #082955;
+}
+.topnav-pickup-page a:hover {
+    border-bottom: 4px solid #082955;
+}
+.auth-user-pickup-page {
+    padding-top: 15px;
+    padding-left: 0px;
+    padding-right: 10px;
+}
+.auth-user-pickup-page a {
+    padding: 15px;
+    text-decoration: none;
+    color: #082955;
+}
+.auth-user-pickup-page a:hover {
+    background-color:  #082955;
+    color: white;
+}
+.header-auth-user {
+    padding-top: 15px ;
+    padding-bottom: 15px ;
+    
+    text-align: center;
+}
+/*TUTUP HEADER*/
+
+/*HERO SECTION*/
+.hero-section {
+    background-image: url(/frontend/img/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 760px;
+    color: white;
+    padding-top: 65px;
+
+    text-align: center;
+}
+.hero-section h5 {
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 20px;
+
+    margin-bottom: 20px;
+}
+.hero-section h3 {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 60px;
+}
+.green-button {
+    border: none;
+    background-color: #588733;
+    color: white;
+
+    height: 45px;
+}
+.green-button:hover {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+.experience {
+    background-color: white;
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    color: #588733;
+    width: 962px;
+
+    border-radius: 25px;
+    height: 150px;
+
+    margin: auto;
+
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 20px;
+
+    vertical-align: middle;
+}
+/*TUTUP HERO SECTION*/
+
+/*HERO SECTION PICKUP PAGE*/
+.hero-section-pickup-page {
+    background-image: url(/frontend/img/bg-hero-pickup-page.png);
+    height: 835px;
+}
+.form-pickup {
+    background-color: white;
+    padding: 25px;
+
+}
+.hero-section-pickup-page h5 {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 45px;
+
+    color: white;
+}
+.hero-section-pickup-page h3 {
+    font-family: Open Sans;
+    font-weight: 300;
+    font-size: 25px;
+
+    color: white;
+}
+.form-pickup input {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #082848;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 35px;
+}
+/*TUTUP HERO SECTION PICKUP PAGE*/
+
+/*HERO SECTION LOGIN*/
+.hero-section-auth-user {
+    background-image: url(/frontend/img/bg-login-signup.png);
+    height: 835px;
+}
+.hero-section-auth-user h3 {
+    font-family: Open Sans;
+    font-weight: 300;
+    font-size: 25px;
+
+    color: white;
+}
+.hero-section-auth-user h5 {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 45px;
+
+    color: white;
+}
+.title-form h6 {
+    text-align: center;
+
+    font-family: Open Sans;
+    font-weight: 500;
+    font-size: 30px;
+
+}
+.form-login {
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+
+    width: 500px;
+
+    margin-left: 50%;
+}
+.form-login button {
+    border: none;
+    background-color: #588733;
+    width: 150px;
+    color: white;
+    height: 45px;
+}
+.form-login input {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #082848;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 35px;
+}
+
+.form-signup {
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+
+    width: 500px;
+
+    margin-left: 30%;
+}
+.form-signup button {
+    border: none;
+    background-color: #588733;
+    width: 150px;
+    color: white;
+    height: 45px;
+}
+.form-signup input {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #082848;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 35px;
+}
+/* TUTUP HERO SECTION LOGIN*/
+.tittle-section {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 25px;
+
+    color: #082848;
+
+    border-bottom: 5px solid #588733 ;
+    width: 25%;
+}
+/* POPULAR CATEGORIES SECTION*/
+.popular-categories {
+    margin-top: 45px;
+}
+.item-popular-categories {
+    width: 100%;
+
+    text-align: center;
+    color: white;
+
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+.living-room {
+    background-image: url(/frontend/img/living-room.png);
+    height: 343px;
+    border-radius: 15px;
+}
+.item-popular-categories h5{
+  position: relative;
+  top: 260px;
+}
+
+.item-popular-categories p {
+    position: relative;
+    top: 260px;
+}
+.item-popular-categories a {
+    text-decoration: none;
+    color: white;
+}
+.bedroom {
+    background-image: url(/frontend/img/bedroom.png);
+    height: 343px;
+    border-radius: 15px;
+}
+.bathroom {
+    background-image: url(/frontend/img/bathroom.png);
+    height: 343px;
+    border-radius: 15px;
+}
+.kitchen {
+    background-image: url(/frontend/img/kitchen.png);
+    height: 343px;
+    border-radius: 15px;
+}
+/*TUTUP POPULAR CATEGORIES SECTION*/
+
+/* POPULAR CATEGORIES SECTION*/
+.popular-products {
+    margin-top: 45px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: #FAFAFA;
+    color: black;
+}
+.item-popular-products {
+    margin-top: 45px;
+}
+.item-popular-products a {
+    text-decoration: none;
+    color: black;
+}
+.desc-popular-products h5 {
+    font-family: Open Sans;
+    font-weight: 500;
+    font-size: 18px;
+
+    height: 50px;
+
+    color: #082848;
+} 
+.desc-popular-products {
+    padding: 15px;
+    background-color: white;
+
+    height: 120px;
+
+}
+.popular-products-1 {
+    background-image: url(/frontend/img/popular-product-1.png);
+    background-size: contain;
+    height: 275px;
+    border-radius: 15px;
+}
+.popular-products-2 {
+    background-image: url(/frontend/img/popular-product-2.png);
+    background-size: auto;
+    height: 275px;
+    border-radius: 15px;
+}
+.popular-products-3 {
+    background-image: url(/frontend/img/popular-product-3.png);
+    background-size: auto;
+    height: 275px;
+    border-radius: 15px;
+}
+.popular-products-4 {
+    background-image: url(/frontend/img/popular-product-4.png);
+    background-size: auto;
+    height: 275px;
+    border-radius: 15px;
+}
+/*TUTUP POPULAR CATEGORIES SECTION*/
+
+
+/*ABOUT US SECTION*/
+.about-us {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+.about-us img {
+    width: 100%;
+    border-bottom-right-radius: 55px;
+}
+.about-us h6 {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 35px;
+
+    margin-top: 25px;
+
+    color: #082848;
+}
+
+.about-us p {
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 18px;
+
+    
+    margin-top: 15px;
+
+    color: #082848;
+}
+.explore-product-button {
+    border: none;
+    background-color: #588733;
+    color: white;
+
+    width: 100%;
+
+    height: 45px;
+}
+.order-custom-button {
+    border: 2px solid #588733 ;
+    background-color: white;
+    color: #588733;
+
+    width: 100%;
+
+    height: 45px;
+}
+.explore-product-button:hover {
+    border: 2px solid #588733 ;
+    background-color: white;
+    color: #588733;
+}
+/*TUTUP ABOUT US SECTION*/
+
+/*TESTIMONI*/
+.testimoni {
+    background-color: #1E1E1E;
+    padding-top: 95px;
+    padding-bottom: 75px;
+}
+.testimoni h5 {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 25px;
+
+    color: #588733;
+    border-bottom: 5px solid #588733 ;
+
+    padding-bottom: 10px;
+
+    width: 250px;
+}
+.testimoni p {
+    font-family: Open Sans;
+    font-weight: 500;
+    font-size: 37px;
+
+    color: white;
+}
+.review-box {
+    padding: 15px;
+    background-color: white;
+    color: #082848;
+
+    border-radius: 10px;
+}
+/*TUTUP TESTIMONI*/
+
+/*mid-banner*/
+.mid-banner {
+    background-image: url(/frontend/img/mid-banner.png);
+    background-size: cover;
+    height: 370px;
+
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 35px;
+    padding-top: 80px;
+    text-align: center;
+    color: white;
+}
+.mid-banner h4 {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 35px;
+}
+.mid-banner p {
+    font-family: Open Sans;
+    font-weight: 300;
+    font-size: 25px;
+}
+/*TUTUP mid-banner*/
+
+
+/* FOOTER*/
+.footer {
+    border-top: 2px solid black;
+    padding-top: 35px;
+    background-color: #1E1E1E;
+    color: white;
+
+}
+.footer a {
+    text-decoration: none;
+    color: white;
+    
+}
+/*TUTUP FOOTER*/
+
+/*DETAIL PRODUCT SECTION*/
+.detail-product {
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    margin-bottom: 75px;
+}
+.detail-product img {
+    border: 1px solid black;
+}
+.gambar-detail-product-1 img{
+    width: 100%;
+    height: auto;
+}
+.gambar-detail-product-2 img {
+    width: 15%;
+    height: auto;
+
+    margin-top: 25px;
+    margin-right: 25px;
+}
+.product-detail {
+    padding: 25px;
+    background-color: white;
+}
+.product-detail h3 {
+    font-family: Open Sans;
+    font-weight: 500;
+    font-size: 25px;
+}
+.product-detail select {
+    width: 250px;
+    height: 45px;
+} 
+.product-detail button {
+    background-color: #588733;
+    color: white;
+    width: 150px;
+    height: 45px;
+    border: none;
+
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 15px;
+}
+.product-detail button:hover {
+    background-color: white;
+    color: #588733;
+    border: 1px solid #588733;
+}
+/*TUTUP DETAIL PRODUCT SECTION*/
+
+.breadcrumb {
+    background-color: transparent;
+}
+.bg-page {
+    background-color: #FAFAFA;
+}
+
+/*MY CART*/
+.table-cart tr {
+    border: 1px solid black;
+}
+.table-cart th {
+    padding: 20px;
+    background-color: white;
+}
+.table-cart td {
+    padding: 20px;
+    background-color: white;
+}
+.table-payment {
+    background-color: white;
+    padding: 20px;
+}
+.table-payment input {
+    width: 170%;
+}
+.confirm-button {
+    background-color: #588733;
+    width: 140px;
+    height: 45px;
+    color: white;
+    border: none;
+}
+.confirm-button:hover {
+    background-color: white;
+    color: #588733;
+    border: 2px solid #588733;
+}
+/*TUTUP MY CART*/
+
+/*SUCCESS ORDER*/
+.success-order {
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+.success-order h2 {
+    color: #588733;
+    font-family: open Sans;
+    font-size: 55px;
+    font-weight: 600;
+}
+.success-order a {
+    text-decoration: none;
+    color: #082848;
+}
+/*TUTUP SUCCESS ORDER*/
